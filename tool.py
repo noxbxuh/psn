@@ -913,7 +913,7 @@ all = {all}""")
 	     						
 	     						f.write(f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte\n""")
 	     						f.close()
-	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
+	     					bot.send_message(chat_id=ID, text=f"""{account} | type =={dom} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte""")
 	     		
 	elif s == int("2"):
 	     		print("start .......")
@@ -965,7 +965,7 @@ if maybe == linked - not linked
 if False == not linked
 Dev : @usaByte
 """)
-	     					bot.send_message(chat_id=ID, text=f"""{account} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @pppiqi""")
+	     					bot.send_message(chat_id=ID, text=f"""{account} | tik ={c1} | insta ={c4} | facebook ={c3} | Netflix ={c6} | amazon ={c2} | spotify ={c5} | by : @usaByte""")
 
 	     				elif dom == False:
 	     					print(f"wrong email ....{account}")
